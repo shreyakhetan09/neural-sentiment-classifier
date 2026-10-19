@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+# checkpoints and large assets
+*.pt
+*.parquet
+glove.*.txt
+*.zip

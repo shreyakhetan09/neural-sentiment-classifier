@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-sentiment-classifier"
+version = "1.0.0"
+description = "Binary sentiment classification on SST with DAN and (Bi)LSTM/GRU models"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "pyarrow>=10.0",
+]
+
+[tool.setuptools]
+packages = ["sentiment"]
